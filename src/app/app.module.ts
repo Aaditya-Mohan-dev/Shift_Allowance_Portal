@@ -8,6 +8,7 @@ import { EmployeeComponent } from './components/employee/employee/employee.compo
 import { ManagerComponent } from './components/manager/manager/manager.component';
 import { HrComponent } from './components/hr/hr/hr.component';
 import { SidebarComponent } from './sidebar/sidebar/sidebar.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SidebarComponent } from './sidebar/sidebar/sidebar.component';
     EmployeeComponent,
     ManagerComponent,
     HrComponent,
-    SidebarComponent
+    SidebarComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
