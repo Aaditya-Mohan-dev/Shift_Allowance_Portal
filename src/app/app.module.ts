@@ -8,6 +8,9 @@ import { EmployeeComponent } from './components/employee/employee/employee.compo
 import { ManagerComponent } from './components/manager/manager/manager.component';
 import { HrComponent } from './components/hr/hr/hr.component';
 import { SidebarComponent } from './sidebar/sidebar/sidebar.component';
+import { ManagerRecordComponent } from './components/manager/manager-record/manager-record/manager-record.component';
+import { ManagerRequestComponent } from './components/manager/manager-request/manager-request/manager-request.component';
+import { EmployeeRequestComponent } from './components/employee/employee-request/employee-request/employee-request.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { SidebarComponent } from './sidebar/sidebar/sidebar.component';
     EmployeeComponent,
     ManagerComponent,
     HrComponent,
-    SidebarComponent
+    SidebarComponent,
+    ManagerRecordComponent,
+    ManagerRequestComponent,
+    EmployeeRequestComponent
   ],
   imports: [
     BrowserModule,

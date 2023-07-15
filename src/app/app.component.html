@@ -3,11 +3,15 @@
     <app-navbar></app-navbar>
   </div>  
 </div>
-<div class="row mt-4">
-  <div>
-    <app-sidebar></app-sidebar>
-  </div>
-  <div>
-    <router-outlet></router-outlet>
+<div class="row container-fluid">
+  <div class="main-body">
+    <div class="row mt-4">
+      <div class="col-lg-3 mb-3">
+        <app-sidebar></app-sidebar>
+      </div>
+      <div class="col-lg-9 mb-3">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
   </div>
 </div>
